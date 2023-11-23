@@ -8,8 +8,7 @@ if(!todo.text || /^\s*$/.test(todo.text)){
 }
 const newTodos=[todo,...todos];
 setTodos(newTodos);
-console.log(...todos);
-    }
+    };
 
   return (
     <div>
